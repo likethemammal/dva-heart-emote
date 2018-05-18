@@ -1,0 +1,45 @@
+{
+  "name": "@likethemammal/overwatch-dva-heart-emote",
+  "version": "0.0.4",
+  "description": "A-Frame WebGL demo of D.Va's 'Heart' emote in Overwatch",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "main": "lib/bundle.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "aframe": "^0.7.1",
+    "aframe-alongpath-component": "^1.0.5",
+    "lodash": "^4.17.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.2.0",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "raw-loader": "^0.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "webpack": "3.9.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.x",
+    "react-dom": ">=16.2.x"
+  },
+  "author": "Chris Dolphin",
+  "license": "CC"
+}
