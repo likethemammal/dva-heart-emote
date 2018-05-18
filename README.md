@@ -7,6 +7,8 @@ Built with [A-Frame](https://aframe.io/) and [React](https://reactjs.org/)
 
 ![Demo gif](example/dva_heart_emote_demo.gif)
 
+[Live Demo (CodeSandbox)](https://codesandbox.io/s/8px9w4vkxl)
+
 ### Todo
  - [ ] Circle of boxes, slowing moving out
  - [ ] Columns of boxes in explosion
